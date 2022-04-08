@@ -5,7 +5,7 @@
     - custom data science transforms? udfs?
 - can we use a separate product to do metadata management to search columns, tables, look at lineage, enable versioning, etc.?How does an analyst know which table to use for a certain use case?
 - what are the key expectations from a new data warehouse?
-    - why snowflake, why not redshift-ra3, clickhouse and variants like firebolt, data lakes solutions like dremio, databricks lake house, etc.
+    - why snowflake, why not redshift-ra3, clickhouse and variants like firebolt, data lakes solutions like dremio, databricks lake house, presto, etc.
     - about [benchmarking][1] and [comparison showdown][2]?
     - should workload pattern not be considered? e.g. what are the typical types of queries which hit the system, how many operators, relations, etc. do they have between them on avg, etc.?
     - what about query cost?
@@ -18,7 +18,8 @@
 - how much should we focus on cluster isolation between customers and products?
 
 ##### Other questions (8/April)
-- what would migration look like and how difficult would it be with our current queries. Do we use a lot of vendor locking functions?
+- what would migration look like and how difficult would it be with our current queries. Do we use a lot of vendor locking functions? Especially queries which are not creating with looker.
+- should we have an ease of use metrics too as the KPI? How we we test it?
 
 [1]: https://www.fivetran.com/blog/warehouse-benchmark
 [2]: https://poplindata.com/data-warehouses/2021-database-showdown-bigquery-vs-redshift-vs-snowflake/
