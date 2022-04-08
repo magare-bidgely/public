@@ -17,5 +17,8 @@
 - wouldn't pdt generation still be a problem with any other data warehouses?
 - how much should we focus on cluster isolation between customers and products?
 
+##### Other questions (8/April)
+- what would migration look like and how difficult would it be with our current queries. Do we use a lot of vendor locking functions?
+
 [1]: https://www.fivetran.com/blog/warehouse-benchmark
 [2]: https://poplindata.com/data-warehouses/2021-database-showdown-bigquery-vs-redshift-vs-snowflake/
