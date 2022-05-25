@@ -21,5 +21,11 @@
 - what would migration look like and how difficult would it be with our current queries. Do we use a lot of vendor locking functions? Especially queries which are not creating with looker.
 - should we have an ease of use metrics too as the KPI? How we we test it?
 
+##### Follow up (25/May)
+- appliance_profile_v2
+    - why are we using `variant` column type .. e.g. `dataset` in `appliance_profile_v2`?
+    - clustering by `pilot_id, source` .. but only data that exists in this table is from pilot 10046
+    - 
+
 [1]: https://www.fivetran.com/blog/warehouse-benchmark
 [2]: https://poplindata.com/data-warehouses/2021-database-showdown-bigquery-vs-redshift-vs-snowflake/
