@@ -26,8 +26,9 @@
 - appliance_profile_v2
     - why are we using `variant` column type .. e.g. `dataset` in `appliance_profile_v2`?
     - clustering by `pilot_id, source` .. but only data that exists in this table is from pilot avista
-- raw_comsumption_v4
-    - cluster index of `LINEAR(pilot_id, uuid, time)`??
+- raw_consumption_v4
+    - cluster index of `LINEAR(pilot_id, uuid, time)`?? what is the query pattern?
+- are we ok with maintaining cluster indices (read >> write)?
 
 [1]: https://www.fivetran.com/blog/warehouse-benchmark
 [2]: https://poplindata.com/data-warehouses/2021-database-showdown-bigquery-vs-redshift-vs-snowflake/
