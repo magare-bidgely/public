@@ -22,11 +22,12 @@
 - should we have an ease of use metrics too as the KPI? How we we test it?
 
 ##### Follow up (25/May)
-- is it that most of the data is 10046 data? if so, how do we measure / benchmark performance?
+- is it that most of the data is avista data? if so, how do we measure / benchmark / compare performance with current system?
 - appliance_profile_v2
     - why are we using `variant` column type .. e.g. `dataset` in `appliance_profile_v2`?
-    - clustering by `pilot_id, source` .. but only data that exists in this table is from pilot 10046
-    - 
+    - clustering by `pilot_id, source` .. but only data that exists in this table is from pilot avista
+- raw_comsumption_v4
+    - cluster index of `LINEAR(pilot_id, uuid, time)`??
 
 [1]: https://www.fivetran.com/blog/warehouse-benchmark
 [2]: https://poplindata.com/data-warehouses/2021-database-showdown-bigquery-vs-redshift-vs-snowflake/
