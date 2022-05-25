@@ -22,6 +22,7 @@
 - should we have an ease of use metrics too as the KPI? How we we test it?
 
 ##### Follow up (25/May)
+- is it that most of the data is 10046 data? if so, how do we measure / benchmark performance?
 - appliance_profile_v2
     - why are we using `variant` column type .. e.g. `dataset` in `appliance_profile_v2`?
     - clustering by `pilot_id, source` .. but only data that exists in this table is from pilot 10046
