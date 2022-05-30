@@ -30,6 +30,8 @@
     - cluster index of `LINEAR(pilot_id, uuid, time)`?? what is the query pattern?
 - are we ok with maintaining cluster indices (read >> write)?
 - are we also emulating incremental raw consumption update, as I don't see data after 14th May in the system .. how do we test snowpipe without working on incremental data?
+- have we tested the linear scaling with increasing pilots?
+- how much load would fall on the first time load?
 
 [1]: https://www.fivetran.com/blog/warehouse-benchmark
 [2]: https://poplindata.com/data-warehouses/2021-database-showdown-bigquery-vs-redshift-vs-snowflake/
