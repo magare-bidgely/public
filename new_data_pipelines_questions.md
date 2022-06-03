@@ -1,4 +1,4 @@
-##### Questions to ask (4.April)
+##### Questions to ask (4/April)
 - how can one distinguish between the transforms which needs to be done the spark way and others which can be ELT on data warehouse? 
     - new batch platform architecture? what happens to it?
     - are raw ingested data too big to store?
