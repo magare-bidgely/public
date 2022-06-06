@@ -47,5 +47,10 @@
 - ~will looker pdts maintenance remain unchanged?~
   - P: monthly aggregation happening today (as well as final agg). Since that is not happening now, this should be reduced.
 
+##### Follow up again (6/June)
+- how do you create and maintain snowpipes? is there an admin panel for the same, or purely programmatic?
+- same as before, but about transforms, without using DBT? is it through materialized views and if so, is there an admin panel for the same?
+- 
+
 [1]: https://www.fivetran.com/blog/warehouse-benchmark
 [2]: https://poplindata.com/data-warehouses/2021-database-showdown-bigquery-vs-redshift-vs-snowflake/
