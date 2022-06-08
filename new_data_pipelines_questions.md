@@ -50,7 +50,7 @@
 ##### Follow up again (6/June)
 - how do you create and maintain snowpipes? is there an admin panel for the same, or purely programmatic?
 - same as before, but about transforms, without using DBT? is it through materialized views and if so, is there an admin panel for the same?
-- are materialized views user by Bidgely / potentially useful? Would this mean anything in terms of which version suits us best, standard or enterprise snowflake?
+- are materialized views user by Bidgely / potentially useful? Would this mean anything in terms of which version suits us best, standard or enterprise snowflake? would dbt help here?
 
 [1]: https://www.fivetran.com/blog/warehouse-benchmark
 [2]: https://poplindata.com/data-warehouses/2021-database-showdown-bigquery-vs-redshift-vs-snowflake/
