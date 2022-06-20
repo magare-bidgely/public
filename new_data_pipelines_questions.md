@@ -52,7 +52,8 @@
 - same as before, but about transforms, without using DBT? is it through materialized views and if so, is there an admin panel for the same?
 - are materialized views user by Bidgely / potentially useful? Would this mean anything in terms of which version suits us best, standard or enterprise snowflake? would dbt help here?
 - are the ETLs performed currently not needed at all? Or will they be still in use and thus cost us additionally.
-- can we orchestrate using DBT or SF, other custom operators like disagg. E.g. I could do things like `disagg-dataprep -> disagg -> appliance-aggr` .. here `disagg` itself need not be a transform on SF, but could be a separate service invocation.
+  - which are the ETLs which will be discontinued? What are the costs for the same?  
+  - can we orchestrate using DBT or SF, other custom operators like disagg. E.g. I could do things like `disagg-dataprep -> disagg -> appliance-aggr` .. here `disagg` itself need not be a transform on SF, but could be a separate service invocation.
 
 [1]: https://www.fivetran.com/blog/warehouse-benchmark
 [2]: https://poplindata.com/data-warehouses/2021-database-showdown-bigquery-vs-redshift-vs-snowflake/
